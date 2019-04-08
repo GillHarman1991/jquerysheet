@@ -1,32 +1,24 @@
-<html>
+html>
     <head>
         <title>
-            eq index method
+            find method
         </title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript">
             $(document).ready(function()
             {
-                 $(li).eq(3).addClass("selected");
+                 $("p").find("span").addClass("selected");
            });
         </script>
         <style>
-        .selected 
-        {
-            color:red;
-          }
+        .selected {
+            color:red;}
         </style>
     </head>
     <body>
-        <div>
-            <ul>
-                <li>MBA</li>
-                <li>MCA</li>
-                <li>BE</li>
-                <li>hshs</li>
-                
-            </ul>
-        </div>
+        <p>First Para:<span>TutorialRide</span></p>
+        <p> Second Para:<span>E-learning</span></p>
+        
         
     </body>
 </html>
